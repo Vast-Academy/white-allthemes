@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 14 Jun 2024 06:39:30 at https://themes.potenzaglobalsolutions.com/html/academic/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://themes.potenzaglobalsolutions.com/html/academic/ -O1 "C:\Users\sahil.SAHILPC\OneDrive\Desktop\pictures project\College theme 1.1" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+06:40:11	Error: 	"Not Found" (404) at link https://themes.potenzaglobalsolutions.com/html/academic/css/owl-carousel/owl.video.play.png (from https://themes.potenzaglobalsolutions.com/html/academic/css/owl-carousel/owl.carousel.min.css)
+06:40:11	Error: 	"Not Found" (404) at link https://themes.potenzaglobalsolutions.com/html/academic/js/jquery-3.4.1.min.js (from https://themes.potenzaglobalsolutions.com/html/academic/index-03.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 41 seconds : 153 links scanned, 150 files written (37194552 bytes overall) [35783068 bytes received at 872757 bytes/sec], 1840220 bytes transferred using HTTP compression in 49 files, ratio 20%, 38.2 requests per connection
+(2 errors, 0 warnings, 0 messages)
