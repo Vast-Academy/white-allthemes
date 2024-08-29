@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                                 <li><a href="../tourist-visa/">Tourist Visa</a></li>
                                                 <li><a href="../immigration/">Immigration</a></li>
                                                 <li><a href="../tour-packages/">Tour Packages</a></li>
-                                                <li><a href="../carrer-counseling/">Carrer Counseling</a></li>
+                                                <li><a href="../career-counseling/">Career Counseling</a></li>
                                                 <li><a href="../application-assistance/">Application Assistance</a></li>
                                                 <li><a href="../post-study-support/">Post Study Support</a></li>
                                                 <li><a href="../pre-departure-orientation/">Pre-Departure Orientation</a></li>
