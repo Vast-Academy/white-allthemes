@@ -636,5 +636,125 @@
     <!-- template js -->
     <script src="assets/js/treck.js"></script>
     <script src="../javascript/app.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+    const headerContainer = document.createElement('header');
+    headerContainer.className = 'main-header';
+    headerContainer.innerHTML = `
+        <nav class="main-menu">
+            <div class="main-menu__wrapper">
+                <div class="main-menu__wrapper-inner">
+                    <div class="main-menu__logo">
+                        <a href="index.html"><img src="assets/images/resources/logo-1.png" alt=""></a>
+                    </div>
+                    <div class="main-menu__wrapper-inner-content">
+                        <div class="main-menu__top">
+                            <div class="main-menu__top-inner">
+                                <div class="main-menu__top-left">
+                                    <ul class="list-unstyled main-menu__contact-list">
+                                        <li>
+                                            <div class="icon">
+                                                <i class="fas fa-map-marker"></i>
+                                            </div>
+                                            <div class="text">
+                                                <p><a href="https://maps.app.goo.gl/c8w3QJLR4ucRWnub7" target="_blank">SCF 24 1st Floor, Kabir Park Market Opp. G.N.D.U. Asr (143001)</a></p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <i class="fas fa-envelope"></i>
+                                            </div>
+                                            <div class="text">
+                                                <p><a href="mailto:admissions.globalmovers@gmail.com">admissions.globalmovers@gmail.com</a></p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <i class="fas fa-clock"></i>
+                                            </div>
+                                            <div class="text">
+                                                <p>Mon - Sat 10.00 am - 6.00 pm</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-menu__bottom">
+                            <div class="main-menu__bottom-inner">
+                                <div class="main-menu__main-menu-box">
+                                    <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                    <ul class="main-menu__list">
+                                        <li class="dropdown megamenu">
+                                            <a href="../">Home </a>
+                                        </li>
+                                        <li>
+                                            <a href="../about-us/">About Us</a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="">Services</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="../study-visa/">Study Visa</a></li>
+                                                <li><a href="../visitor-visa/">Visitor Visa</a></li>
+                                                <li><a href="../tourist-visa/">Tourist Visa</a></li>
+                                                <li><a href="../immigration/">Immigration</a></li>
+                                                <li><a href="../tour-packages/">Tour Packages</a></li>
+                                                <li><a href="../career-counseling/">Career Counseling</a></li>
+                                                <li><a href="../application-assistance/">Application Assistance</a></li>
+                                                <li><a href="../post-study-support/">Post Study Support</a></li>
+                                                <li><a href="../pre-departure-orientation/">Pre-Departure Orientation</a></li>
+                                                <li><a href="../permanent-residency-consultation/">Permanent Residency Consultation</a></li>
+                                                <li><a href="../visa-immigration-support/">Visa and Immigration Support</a></li>
+                                                <li><a href="../university-selection-guidance/">University Selection Guidance</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="">Countries</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="../australia/">Australia</a></li>
+                                                <li><a href="../canada/">Canada</a></li>
+                                                <li><a href="../usa/">USA</a></li>
+                                                <li><a href="../germany/">Germany</a></li>
+                                                <li><a href="../singapore/">Singapore</a></li>
+                                                <li><a href="../ireland/">Ireland</a></li>
+                                                <li><a href="../new-zealand/">New Zealand</a></li>
+                                                <li><a href="../united-kingdom/">United Kingdom</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="../gallery/">Gallery</a>
+                                        </li>
+                                        <li>
+                                            <a href="../contact-us/">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="main-menu__right">
+                                    <div class="main-menu__call">
+                                        <div class="main-menu__call-icon">
+                                            <img src="assets/images/icon/main-menu-comment-icon.png" alt="">
+                                        </div>
+                                        <div class="main-menu__call-content">
+                                            <p class="main-menu__call-sub-title">Have Question?</p>
+                                            <h5 class="main-menu__call-number"><a href="tel:9988788966"><span>Free</span> +91 &nbsp;99887-88966</a></h5>
+                                        </div>
+                                    </div>
+                                    <div class="main-menu__btn-box">
+                                        <a href="#contact-form" class="thm-btn contact-five__btn">Book Appointment</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    `;
+
+    // Append header to the body or another container
+    document.body.prepend(headerContainer);
+});
+    </script>
   </body>
 </html>
